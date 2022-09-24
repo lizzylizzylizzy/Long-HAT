@@ -1,7 +1,12 @@
 # Long-HAT
+## Research field
 Aim to long text understanding
-
-run script
+## Requirements
+The dependencies can be installed by:
+```
+pip install -r requirement.txt
+```
+## Run Script
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
 python  -m torch.distributed.launch \
