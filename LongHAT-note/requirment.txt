@@ -1,0 +1,13 @@
+ipdb
+tqdm
+wandb
+pandas
+
+torch
+numpy
+scikit_learn
+sktime==0.4.1
+transformers
+accelerate
+pytorch_transformers
+matplotlib
