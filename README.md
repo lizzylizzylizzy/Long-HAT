@@ -9,7 +9,7 @@ pip install -r requirement.txt
 ```
 
 ## File Description
--note (version with detailed annotation)
+-note (version with detailed annotation)  
 -analyze (version with time consuming analysis for model components)
 
 ## Run Script
