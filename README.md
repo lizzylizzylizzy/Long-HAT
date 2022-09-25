@@ -1,11 +1,17 @@
 # Long-HAT
 ## Research field
 Aim to long text understanding
+
 ## Requirements
 The dependencies can be installed by:
 ```
 pip install -r requirement.txt
 ```
+
+## File Description
+-note (version with detailed annotation)
+-analyze (version with time consuming analysis for model components)
+
 ## Run Script
 ```
 CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7 \
