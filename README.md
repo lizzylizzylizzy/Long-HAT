@@ -10,7 +10,7 @@ pip install -r requirement.txt
 
 ## File Description
 -note (version with detailed annotation)  
--analyze (version with time consuming analysis for model components)
+-analyze (version for time consuming analysis about main constituent in Long-HAT)
 
 ## Run Script
 ```
