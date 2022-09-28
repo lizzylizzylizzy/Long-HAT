@@ -51,7 +51,7 @@ accelerator = Accelerator(kwargs_handlers=[ddp_kwargs])
 # - device = 'cpu'
 device = accelerator.device
  
-
+#script to analyze data distribution
 
 # dataset = load_dataset("imdb")
 # data = torch.utils.data.DataLoader(dataset, shuffle=True)

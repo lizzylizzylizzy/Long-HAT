@@ -1,3 +1,4 @@
+# from huggingface
 # coding=utf-8
 # Copyright 2018 The Google AI Language Team Authors and The HuggingFace Inc. team.
 # Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
@@ -625,7 +626,7 @@ class BertLayer(nn.Module):
         layer_output = self.output(intermediate_output, attention_output)
         torch.cuda.synchronize()
         global_time.ffn_time += time.time()-start2
-        print(global_time.ffn_time)
+        # print(global_time.ffn_time)
         # pdb.set_trace()
         outputs = (layer_output,) + attention_outputs[1:]  # add attentions if we output them
         return outputs

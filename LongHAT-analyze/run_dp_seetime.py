@@ -49,7 +49,7 @@ def statistic_arr(myarr, bins):
     print(result)
 
 def get_optimizer_params(model, type='rob', plus =1, learning_rate=1e-5):
-    # differential learning rate and weight decay
+    ## differential learning rate and weight decay
     param_optimizer = list(model.named_parameters())
     weight_decay = 0.01
     no_decay = ['bias', 'gamma', 'beta']
